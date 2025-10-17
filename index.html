@@ -3,24 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página de Bienvenida Simple</title>
+    <title>Sabor de la Tierra Boliviana</title>
+    <link rel="stylesheet" href="styles.css"> 
 </head>
 <body>
-    <header>
-        <h1>¡Hola Mundo! 👋</h1>
+
+    <header class="hero">
+        <h1>SABOR DE LA TIERRA BOLIVIANA</h1>
+        <p>Tradición y sabor de nuestra tierra, directo a tu mesa.</p>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#menu">Nuestro Menú</a></li>
+                <li><a href="#nosotros">Historia</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <main>
-        <h2>Este es el Contenido Principal</h2>
-        <p>Esta es una página web muy simple que solo contiene texto básico.</p>
+    <main id="menu">
+        <h2>Nuestros Platos Estrella</h2>
         
-        <p>Estoy listo(a) para el siguiente paso con Git.</p>
-
-        <p>Versión actual: **1.0.1**</p>
-    </main>
+        <div class="plato">
+            <img src="https://via.placeholder.com/300x200?text=Plato+Paceño" alt="Plato Paceño">
+            <h3>Plato Paceño</h3>
+            <p>Deliciosa combinación de choclo, queso de cabra, papa y habas.</p>
+        </div>
+        
+        <div class="plato">
+            <img src="https://via.placeholder.com/300x200?text=Majadito" alt="Majadito">
+            <h3>Majadito</h3>
+            <p>El clásico oriental: arroz, charque de res, y huevo frito.</p>
+        </div>
+        
+        </main>
 
     <footer>
-        <small>&copy; 2025 Mi Proyecto Simple</small>
+        <p>&copy; 2025 Sabor de la Tierra Boliviana. ¡Te esperamos!</p>
     </footer>
+    
 </body>
 </html>
